@@ -18,5 +18,6 @@ public class Demo {
         List<String> names = functions.getAllNames(list);
         names.stream().forEach(System.out::println);
         System.out.println(functions.getMaximumAge(list));
+        System.out.println(functions.getMinimumAge(list));
     }
 }

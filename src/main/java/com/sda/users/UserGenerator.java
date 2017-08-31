@@ -21,7 +21,7 @@ public class UserGenerator {
     private List<String> skills;
 
     public UserGenerator() {
-        String fileName = "C:\\Users\\RENT\\Documents\\Java8\\project\\src\\main\\java\\com\\sda\\resources\\imiona.txt";
+        String fileName = "C:\\Users\\RENT\\Documents\\Java8\\Java8practice\\src\\main\\java\\com\\sda\\resources\\imiona.txt";
 
         try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
 
@@ -32,7 +32,7 @@ public class UserGenerator {
         }
         skills = Arrays.asList("SQL", "Java", "Python", "Kotlin", "Scala");
 
-
+// List<String>  strings = Files.readAllLines(Paths.get(path));
     }
 
 //    Function<String, User> mapToUser = (string) -> {
